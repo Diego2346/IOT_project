@@ -1,0 +1,78 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<alert xmlns = "urn:oasis:names:tc:emergency:cap:1.2">
+
+  <identifier>1234</identifier> 
+
+  <sender>ing@mail.com</sender> 
+
+  <sent>2021-05-05T16:49:00-07:00</sent>
+
+  <status>Actual</status> 
+
+  <msgType>Alert</msgType>
+
+  <scope>Public</scope>
+
+  <info>
+
+    <category>Geo</category>
+
+    <event>TERREMOTO</event>   
+
+    <urgency>Immediate</urgency>   
+
+    <severity>Moderato</severity>   
+
+    <certainty>Observed</certainty>
+	
+	<effective>2021-05-05T16:30:00-07:00</effective>
+
+    <senderName>Istituto Nazionale Geofisica e Vulcanologia</senderName>
+
+    <headline>Terremoto 4.3 Catania</headline>
+    	
+    <description>Scossa di terremoto di 4.3 della scala Richter con epicentro Catania rilevata alle 16:30 Martedi 5 Maggio 2021</description>
+	
+	<instruction>Uscire dagli edifici e raggiungere i punti di raccolta</instruction>
+
+    <web>http://terremoti.ingv.it/</web>
+
+    <parameter>
+
+      <valueName>Magnitudo</valueName>
+
+      <value>4.3 Ml</value>
+
+    </parameter>
+
+    <parameter>
+
+      <valueName>Profondità</valueName>
+
+      <value>2 km</value>
+
+    </parameter>
+	<resource> 
+	<resourceDesc>Image file (jpg)</resourceDesc>
+
+      <mimeType>image/jpg</mimeType>   
+
+      <uri>https://www.ansa.it/webimages/img_457x/2016/9/15/c37ef16b9a0770523cc918cb4464889c.jpg
+      </uri>
+
+    </resource> 
+
+
+    <area>       
+
+      <areaDesc>18 km a nord di Catania</areaDesc>
+
+      <circle>37.5013,15.0742 0</circle>  
+
+    </area>
+
+  </info>
+
+</alert>
+

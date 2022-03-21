@@ -1,0 +1,77 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<alert xmlns = "urn:oasis:names:tc:emergency:cap:1.2">
+
+  <identifier>12345</identifier> 
+
+  <sender>ing@mail.com</sender> 
+
+  <sent>2021-06-05T16:49:00-07:00</sent>
+
+  <status>Actual</status> 
+
+  <msgType>Alert</msgType>
+
+  <scope>Public</scope>
+
+  <info>
+
+    <category>Geo</category>
+
+    <event>TERREMOTO</event>   
+
+    <urgency>Immediate</urgency>   
+
+    <severity>Minore</severity>   
+
+    <certainty>Observed</certainty>
+	
+	<effective>2021-06-06T20:54:00-07:00</effective>
+
+    <senderName>Istituto Nazionale Geofisica e Vulcanologia</senderName>
+
+    <headline>Terremoto 3.2 Milano</headline>
+    	
+    <description>Scossa di terremoto di 3.2 della scala Richter con epicentro Milano rilevata alle 20:54 Martedi 6 Giugno 2021</description>
+	
+	<instruction>Uscire dagli edifici e raggiungere i punti di raccolta</instruction>
+
+    <web>http://terremoti.ingv.it/</web>
+
+    <parameter>
+
+      <valueName>Magnitudo</valueName>
+
+      <value>3.2 Ml</value>
+
+    </parameter>
+
+    <parameter>
+
+      <valueName>Profondità</valueName>
+
+      <value>4 km</value>
+
+    </parameter>
+	<resource>
+
+      <resourceDesc>Image file (jpg)</resourceDesc>
+
+      <mimeType>image/jpg</mimeType>   
+
+      <uri>https://www.ansa.it/webimages/ch_620x438/2019/11/27/6bbae5de2a590cf0db24104864dbf02e.jpg</uri>
+
+    </resource> 
+
+    <area>       
+
+      <areaDesc>4 km a sud di Catania</areaDesc>
+
+      <circle>45.465454,9.186516 15</circle>  
+
+    </area>
+
+  </info>
+
+</alert>
+

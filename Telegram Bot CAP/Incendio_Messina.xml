@@ -1,0 +1,60 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<alert xmlns = "urn:oasis:names:tc:emergency:cap:1.2">
+
+  <identifier>1234</identifier> 
+
+  <sender>Vigili del fuoco</sender> 
+
+  <sent>2021-01-17T14:57:00-07:00</sent>
+
+  <status>Actual</status> 
+
+  <msgType>Alert</msgType>
+
+  <scope>Public</scope> 
+
+  <info>
+
+    <category>Fire</category>   
+
+    <event>INCENDIO</event>
+
+    <urgency>Immediate</urgency>   
+
+    <severity>Severa</severity>   
+
+    <certainty>Observed</certainty>
+	
+	<effective>2021-10-05T19:30:00-07:00</effective>
+
+
+    <senderName>Vigili del fuoco</senderName>
+
+    <headline>ATTENZIONE GRANDE INCENDIO</headline>
+
+    <description> Incendio autostrada A18 viucino Messina</description>
+
+    <instruction>Fare attenzione alla guida </instruction>
+
+    <contact></contact>
+    <resource>
+
+      <resourceDesc>Image file (jpg)</resourceDesc>
+
+      <mimeType>image/jpg</mimeType>   
+
+      <uri>https://www.ansa.it/webimages/img_457x/2019/7/1/0146628a7ff08495069dd94db1ae136b.jpg
+      </uri>
+
+    </resource>
+    <area>       
+
+      <areaDesc>Autostrada A18</areaDesc>
+
+      <circle>38.1937571,15.5542082 5</circle>
+    </area>
+
+  </info>
+
+</alert>

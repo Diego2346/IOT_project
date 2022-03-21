@@ -1,0 +1,58 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<alert xmlns = "urn:oasis:names:tc:emergency:cap:1.2">
+
+  <identifier>1234</identifier> 
+
+  <sender>Protezione Civile</sender> 
+
+  <sent>2021-01-17T14:57:00-07:00</sent>
+
+  <status>Actual</status> 
+
+  <msgType>Alert</msgType>
+
+  <scope>Public</scope> 
+
+  <info>
+
+    <category>Met</category>   
+
+    <event>ALLUVIONE</event>
+
+    <urgency>Expected</urgency>   
+
+    <severity>Severa</severity>   
+
+    <certainty>Possible</certainty>
+
+    <effective>2021-06-06T19:00:00-07:00</effective>  
+
+    <senderName>Protezione Civile</senderName>
+
+    <headline>ATTENZIONE ALLUVIONE</headline>
+
+    <description> Probabile alluvione dovuta a forte precipitazione in Sicilia Orientale</description>
+
+    <instruction>Stare a casa e fare attenzione  </instruction>
+	<resource>
+
+      <resourceDesc>Image file (gif)</resourceDesc>
+
+      <mimeType>image/gif</mimeType>   
+
+      <uri>http://www.protezionecivile.gov.it/themeDPC-1.0.0-SNAPSHOT/images/logo.gif</uri>
+
+    </resource> 
+
+    <area>       
+
+      <areaDesc>SICLIA ORIENTALE</areaDesc>
+
+      <circle>37.5013,15.0742 0</circle>
+
+    </area>
+
+  </info>
+
+</alert>

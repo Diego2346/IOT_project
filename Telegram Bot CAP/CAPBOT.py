@@ -102,7 +102,7 @@ def rimuovi_posizione(update,context):
    
    
 if __name__ == '__main__':
-    TOKEN = '1535765316:AAETw1JAaiIl4Ankp59UkhsaGozzLz4HEiI'
+    TOKEN = 'XXX'
     broker="localhost"
     port=1883
 
